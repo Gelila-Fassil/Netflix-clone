@@ -1,5 +1,5 @@
 import "./header.css";
-import logo from "../../assets/NetflixLogo.png";
+import logo from "./netflix_PNG12.png";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
@@ -55,56 +55,72 @@ export default Header;
 
 
 
-//  <div className="header-outer-container container">
-//       <div className="headerContainer row">
-//         <div className="header-left col-md-3 col-sm-6">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import "./header.css";
+// import logo from "./netflix_PNG12.png";
+// import SearchIcon from "@mui/icons-material/Search";
+// import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+// import AccountBoxIcon from "@mui/icons-material/AccountBox";
+// import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+
+// const Header = () => {
+//   return (
+//     <div className="header-outer-container container-fluid mt-3">
+//       <div className="headerContainer">
+//         <div className="header-left">
 //           <ul>
 //             <li>
-//               <img src={logo} alt="Netflix-Logo" width="140px" />
+//               <img src={logo} alt="Netflix-Logo" />
 //             </li>
-//             <li>Home</li>
-//             <li>TvShow</li>
-//             <li>Movies</li>
-//             <li>Latest</li>
-//             <li>MyList</li>
-//             <li>Browser by Language</li>
+//             <li className="ms-4">Home</li>
+//             <li className="ms-4">Tv Show</li>
+//             <li className="ms-4">Movies</li>
+//             <li className="ms-4">Latest</li>
+//             <li className="ms-4">My List</li>
+//             <li className="ms-4">Browse by Language</li>
 //           </ul>
 //         </div>
-//         <div className="header-right col-md-3 col-sm-6">
+//         <div className="header-right">
 //           <ul>
 //             <li>
 //               <SearchIcon />
 //             </li>
-//             <li>
+//             <li className="ms-4">
 //               <NotificationsNoneIcon />
 //             </li>
-//             <li>
+//             <li className="ms-4">
 //               <AccountBoxIcon />
 //             </li>
-//             <li>
+//             <li className="ms-4">
 //               <ArrowDropDownIcon />
 //             </li>
 //           </ul>
 //         </div>
 //       </div>
 //     </div>
+//   );
+// };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// export default Header;
